@@ -19,7 +19,7 @@ def load_questions_and_answers(file_path):
     return questions_and_answers
 
 # Load questions and answers from the text file
-file_path = 'research\\answers.txt'
+file_path = 'research//answers.txt'
 questions_and_answers = load_questions_and_answers(file_path)
 
 # Streamlit App with background color styles
