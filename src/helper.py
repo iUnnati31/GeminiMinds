@@ -21,8 +21,6 @@ from src.prompt import *
 
 from langchain_community.vectorstores import FAISS
 
-
-# OpenAI authentication
 load_dotenv()
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
