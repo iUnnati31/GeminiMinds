@@ -3,7 +3,7 @@ from src.helper import llm_pipeline
 from PyPDF2 import PdfReader
 
 # Streamlit App Configuration
-st.title("📘 PDF Question & Answer Generator")
+st.title("📘 Gemini Minds - An Inteview Question Generator")
 st.write("Upload a PDF and this app will generate questions and answers based on its content!")
 
 # File uploader for the PDF
