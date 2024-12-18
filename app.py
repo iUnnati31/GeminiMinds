@@ -19,8 +19,8 @@ if uploaded_pdf:
     reader = PdfReader(temp_file_path)
     num_pages = len(reader.pages)
 
-    if num_pages > 10:
-        st.warning("⚠️ The uploaded PDF has more than 10 pages. Please upload a PDF with 10 or fewer pages.")
+    if num_pages > 50:
+        st.warning("⚠️ The uploaded PDF has more than 10 pages. Please upload a PDF with 50 or fewer pages.")
     else:
         st.write("✅ PDF uploaded successfully!")
 
