@@ -26,7 +26,7 @@ DOTENV_PATH = os.path.join(BASE_DIR, ".env")
 
 load_dotenv(dotenv_path=DOTENV_PATH)
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
+os.environ["GOOGLE_API_KEY"]=GOOGLE_API_KEY
 
 
 
